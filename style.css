@@ -79,7 +79,7 @@ body,html {
 }
 
 .title{
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
     font-size: 75px;
 }
@@ -88,65 +88,35 @@ body,html {
     display: block;
     margin: auto;
     margin-top: 100px;
-    padding-bottom: 50px;
-    min-width: 70%;
-    max-width: 70%;
-    box-shadow: 2px 2px 15px 8px rgba(255, 255, 255, 0.1);
+    min-width: 80%;
+    max-width: 80%;
+    box-shadow: 2px 2px 15px 12px rgba(255, 255, 255, 0.1);
     border-radius: 25px;
     background-color: white; 
 }
 
 .box {
-    /*   */
+    border: 2px solid red;
     width: 80%;
     display: block;
     margin: auto;
     margin-bottom: 30px;
 }
 
-.topic {
-    margin-top: 0px;
-    padding-left: 50px;
-    font-size: x-large;
-}
-
-.text {
-    margin-top: 10px;
-    margin-bottom: 40px;
-    text-decoration: none;
-}
-
-.main-img {
-    display: block;
-    margin: auto;
-    padding-top: 30px;
-    margin-bottom: 50PX;
-    /* opacity: 80%; */
-}
-
 .img {
-    box-shadow: 2px 2px 15px 8px #74747433;
-    border-radius: 25px;
+    border-radius: 20px;
     display: block;
     width: 80%;
     margin: auto;
     margin-top: 30PX;
-    margin-bottom: 50PX;
+    margin-bottom: 30PX;
 }
 
 .video {
-    box-shadow: 2px 2px 15px 8px rgba(116, 116, 116, 0.2);
-    border-radius: 25px;
+    border-radius: 20px;
     display: block;
+    /* width: 80%; */
     margin: auto;
     margin-top: 30PX;
-    margin-bottom: 50PX;
-}
-
-.footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 20px;
+    margin-bottom: 30PX;
 }
